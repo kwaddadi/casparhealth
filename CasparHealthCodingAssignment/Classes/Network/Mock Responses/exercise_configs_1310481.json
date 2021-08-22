@@ -1,0 +1,38 @@
+{
+    "id": 1310481,
+    "exercise_id": 3382,
+    "video_urls": {
+        "original": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0045/0045.mp4",
+        "mp4": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0045/0045.mp4",
+        "loop": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0045/0045.mp4",
+        "thumb": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0045/0045T.jpg"
+    },
+    "audio_urls": {
+        "en": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0045/0045_en.m4a",
+        "de": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0045/0045_de.m4a",
+        "cn": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0045/0045_cn.m4a",
+        "zh": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0045/0045_zh.m4a"
+    },
+    "title": "Dumbbell 10 (245)",
+    "introduction": "Dumbell training offers resistance training for our muscles. Targeted exercises with dumbells can strengthen different parts of the body.\nThe aims of dumbell training range from strength training to increase muscle, to increasing ones general fitness by supporting weight loss. Furthermore, dumbell training is used preventively for rehabilitation purposes and health improvements.\n\nProper technique is important to prevent damage due to incorrect loading.\n\nThis video shows you how use dumbells to strengthen your upper arms and shoulder girdle in a standing position.",
+    "instruction": "Starting position:\nStand upright. Place both feet hip width apart on the floor. Your arms should hang down relaxed alongside your body. Hold a dumbbell in each hand. The palms of your hands should face your thighs. \n\nStep 1:\nLift your arms above your head with your palms facing towards each other. \n\nStep 2:\nThen lower your arms sideways to shoulder level. Your forearms should be at a right angle to your upper arms.\n\nStep 3:\nNow straighten your arms towards your head and lower then back to shoulder level.\n\nCaution: Keep your upper body erect throughout the exercise.\n\nRepeat the exercise as indicated.",
+    "note": "Strengthening the upper arms and shoulder girdle with dumbbells above the head, standing position",
+    "kind": "exercise",
+    "exercise_type": "repetitions_and_sets",
+    "execution_type": "loop_and_speed",
+    "keywords": [],
+    "category_ids": [7687, 7671, 7706, 7589, 7592, 7580, 7579, 7578, 7577, 7576, 7574, 7573, 7572, 7571, 7567],
+    "sessions_count": 7,
+    "sessions_interval": 86400,
+    "sets_count": 2,
+    "sets_pause": 5,
+    "repetitions_count": 2,
+    "repetitions_hold": null,
+    "repetition_duration": 9,
+    "duration": 41,
+    "extra_note": "",
+    "sessions_completed": [],
+    "feedback": true,
+    "localised_audio": null,
+    "total_task_duration": 2
+}

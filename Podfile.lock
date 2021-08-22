@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (4.9.0)
+  - AlamofireImage (3.5.2):
+    - Alamofire (~> 4.8)
+  - GBAsyncOperation (0.2.1)
+  - GBViewCollectionKit (0.2.12)
+  - TagListView (1.4.0)
+
+DEPENDENCIES:
+  - Alamofire (= 4.9.0)
+  - AlamofireImage (= 3.5.2)
+  - GBAsyncOperation (= 0.2.1)
+  - GBViewCollectionKit (= 0.2.12)
+  - TagListView (= 1.4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - GBAsyncOperation
+    - GBViewCollectionKit
+    - TagListView
+
+SPEC CHECKSUMS:
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  AlamofireImage: 63cfe3baf1370be6c498149687cf6db3e3b00999
+  GBAsyncOperation: 6cdf54862c94d0f2a3fcda2ba294d72f157f31de
+  GBViewCollectionKit: c6965f2e04478a72f8789e4a83b9a2a62bdd4b4e
+  TagListView: 987b0bdbb16cd9d9e7c0e2ec32aff37ecba8b173
+
+PODFILE CHECKSUM: 40b024322f36801c8fdfac4b29b2f7d2f0bd5a61
+
+COCOAPODS: 1.10.2

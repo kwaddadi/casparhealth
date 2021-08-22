@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="DLd-5x-Mfr" customClass="ExerciseCollectionViewCell" customModule="CasparHealth" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="383" height="96"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="383" height="96"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YWS-bq-6Jk">
+                        <rect key="frame" x="19" y="18" width="96" height="51"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="96" id="3rA-b4-ghA"/>
+                            <constraint firstAttribute="height" constant="51" id="GFM-cV-coh"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dehnung Knie 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WtC-xl-KUZ">
+                        <rect key="frame" x="129" y="16" width="235" height="21"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FiD-Nq-AXA" customClass="ExerciseSessionsIndicatorView" customModule="CasparHealth" customModuleProvider="target">
+                        <rect key="frame" x="19" y="69" width="96" height="27"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="27" id="x03-E1-4BH"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jr1-si-BWi">
+                        <rect key="frame" x="129" y="36" width="235" height="41"/>
+                        <string key="text">Dehnung der 
+Kniebeuger im Sitzen</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P5J-O0-tZX">
+                        <rect key="frame" x="19" y="95" width="345" height="1"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="VGe-Su-t7N"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-play" translatesAutoresizingMaskIntoConstraints="NO" id="tTH-Sp-kaH">
+                        <rect key="frame" x="19" y="18" width="96" height="51"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </imageView>
+                    <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CPG-k8-4kb">
+                        <rect key="frame" x="19" y="18" width="96" height="51"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" animating="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="gSP-RV-nte">
+                                <rect key="frame" x="39" y="16" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="P5J-O0-tZX" secondAttribute="bottom" id="0lE-Fr-gzH"/>
+                <constraint firstItem="CPG-k8-4kb" firstAttribute="leading" secondItem="YWS-bq-6Jk" secondAttribute="leading" id="2tX-hM-ANi"/>
+                <constraint firstItem="CPG-k8-4kb" firstAttribute="bottom" secondItem="YWS-bq-6Jk" secondAttribute="bottom" id="3sT-Tr-M6u"/>
+                <constraint firstItem="YWS-bq-6Jk" firstAttribute="leading" secondItem="DLd-5x-Mfr" secondAttribute="leading" constant="19" id="437-Wa-ciJ"/>
+                <constraint firstItem="YWS-bq-6Jk" firstAttribute="top" secondItem="DLd-5x-Mfr" secondAttribute="top" constant="18" id="4yV-bQ-Ihc"/>
+                <constraint firstAttribute="bottom" secondItem="FiD-Nq-AXA" secondAttribute="bottom" id="5qK-La-I0j"/>
+                <constraint firstItem="tTH-Sp-kaH" firstAttribute="leading" secondItem="YWS-bq-6Jk" secondAttribute="leading" id="CTz-yg-UeF"/>
+                <constraint firstItem="CPG-k8-4kb" firstAttribute="trailing" secondItem="YWS-bq-6Jk" secondAttribute="trailing" id="FhX-Yj-L8E"/>
+                <constraint firstItem="P5J-O0-tZX" firstAttribute="leading" secondItem="YWS-bq-6Jk" secondAttribute="leading" id="HQd-SQ-JmF"/>
+                <constraint firstItem="Jr1-si-BWi" firstAttribute="trailing" secondItem="WtC-xl-KUZ" secondAttribute="trailing" id="JTY-6t-Hr8"/>
+                <constraint firstItem="Jr1-si-BWi" firstAttribute="top" secondItem="WtC-xl-KUZ" secondAttribute="bottom" constant="-1" id="Qip-YS-Jpy"/>
+                <constraint firstItem="tTH-Sp-kaH" firstAttribute="trailing" secondItem="YWS-bq-6Jk" secondAttribute="trailing" id="V3m-lE-o7e"/>
+                <constraint firstItem="CPG-k8-4kb" firstAttribute="top" secondItem="YWS-bq-6Jk" secondAttribute="top" id="YcL-Dg-LT9"/>
+                <constraint firstItem="WtC-xl-KUZ" firstAttribute="top" secondItem="YWS-bq-6Jk" secondAttribute="top" constant="-2" id="cJn-xM-uvh"/>
+                <constraint firstItem="FiD-Nq-AXA" firstAttribute="trailing" secondItem="YWS-bq-6Jk" secondAttribute="trailing" id="dxL-vp-YSB"/>
+                <constraint firstItem="FiD-Nq-AXA" firstAttribute="leading" secondItem="YWS-bq-6Jk" secondAttribute="leading" id="gg0-iA-qgG"/>
+                <constraint firstItem="FiD-Nq-AXA" firstAttribute="top" secondItem="YWS-bq-6Jk" secondAttribute="bottom" id="n7u-Ck-cOK"/>
+                <constraint firstItem="tTH-Sp-kaH" firstAttribute="bottom" secondItem="YWS-bq-6Jk" secondAttribute="bottom" id="oP7-Pj-3sL"/>
+                <constraint firstItem="tTH-Sp-kaH" firstAttribute="top" secondItem="YWS-bq-6Jk" secondAttribute="top" id="pca-mB-ayY"/>
+                <constraint firstItem="Jr1-si-BWi" firstAttribute="leading" secondItem="WtC-xl-KUZ" secondAttribute="leading" id="qiu-7U-Qr7"/>
+                <constraint firstItem="P5J-O0-tZX" firstAttribute="trailing" secondItem="Jr1-si-BWi" secondAttribute="trailing" id="x1B-1M-bXL"/>
+                <constraint firstItem="WtC-xl-KUZ" firstAttribute="leading" secondItem="YWS-bq-6Jk" secondAttribute="trailing" constant="14" id="x9V-4d-O1j"/>
+                <constraint firstAttribute="trailing" secondItem="WtC-xl-KUZ" secondAttribute="trailing" constant="19" id="xfR-Rn-K6m"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="3EQ-Bh-1A6"/>
+            <size key="customSize" width="383" height="142"/>
+            <connections>
+                <outlet property="bottomSeparator" destination="P5J-O0-tZX" id="Hh2-LZ-N3P"/>
+                <outlet property="iconImageView" destination="tTH-Sp-kaH" id="lDD-yz-3be"/>
+                <outlet property="loadingView" destination="CPG-k8-4kb" id="cZg-q4-q6R"/>
+                <outlet property="sessionsIndicatorView" destination="FiD-Nq-AXA" id="Cxv-J8-v0x"/>
+                <outlet property="subtitleLabel" destination="Jr1-si-BWi" id="kyL-fT-kNb"/>
+                <outlet property="thumbnailImageView" destination="YWS-bq-6Jk" id="xhp-56-on9"/>
+                <outlet property="titleLabel" destination="WtC-xl-KUZ" id="WIE-be-ygP"/>
+            </connections>
+            <point key="canvasLocation" x="-21.5" y="7"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icon-play" width="25" height="25"/>
+    </resources>
+</document>

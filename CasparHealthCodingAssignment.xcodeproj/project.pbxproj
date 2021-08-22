@@ -1,0 +1,999 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2635C638C972A7E7E079A2AE /* Pods_CasparHealthCodingAssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECB05261EB0CF89991D35FB /* Pods_CasparHealthCodingAssignmentTests.framework */; };
+		908280E3BD2DD5383FA9F915 /* Pods_CasparHealthCodingAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5E33A68BB554B8D80F1C86 /* Pods_CasparHealthCodingAssignment.framework */; };
+		C41E51532590D25900324981 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E51522590D25900324981 /* AppDelegate.swift */; };
+		C41E515A2590D25900324981 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41E51582590D25900324981 /* Main.storyboard */; };
+		C41E515C2590D25B00324981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C41E515B2590D25B00324981 /* Assets.xcassets */; };
+		C41E515F2590D25B00324981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41E515D2590D25B00324981 /* LaunchScreen.storyboard */; };
+		C41E516A2590D25B00324981 /* CasparHealthCodingAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E51692590D25B00324981 /* CasparHealthCodingAssignmentTests.swift */; };
+		C41E51AD2590F6F100324981 /* ExerciseSessionsIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E51A72590F6F100324981 /* ExerciseSessionsIndicatorView.swift */; };
+		C41E51AE2590F6F100324981 /* ExercisesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E51A82590F6F100324981 /* ExercisesListViewController.swift */; };
+		C41E51AF2590F6F100324981 /* ExerciseCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E51AA2590F6F100324981 /* ExerciseCollectionViewModel.swift */; };
+		C41E51B02590F6F100324981 /* ExerciseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E51AB2590F6F100324981 /* ExerciseCollectionViewCell.swift */; };
+		C41E51B12590F6F100324981 /* ExerciseCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C41E51AC2590F6F100324981 /* ExerciseCollectionViewCell.xib */; };
+		C41E51B82590F76200324981 /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E51B52590F75200324981 /* UIDeviceExtension.swift */; };
+		C41E51BC2590F77C00324981 /* OperationQueue+Initialisation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E51BB2590F77C00324981 /* OperationQueue+Initialisation.swift */; };
+		C41E51C02590F79300324981 /* StatusBarAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E51BF2590F79300324981 /* StatusBarAnimatable.swift */; };
+		C41E51C72590F7DD00324981 /* TherapyWeekManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E51C62590F7DD00324981 /* TherapyWeekManager.swift */; };
+		C41E51D02590F7FD00324981 /* CasparResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E51CC2590F7FD00324981 /* CasparResult.swift */; };
+		C41E51D12590F7FD00324981 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E51CD2590F7FD00324981 /* APIConstants.swift */; };
+		C41E51D22590F7FD00324981 /* HTTPStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E51CE2590F7FD00324981 /* HTTPStatusCode.swift */; };
+		C41E51DA2590F82500324981 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E51D52590F82500324981 /* Exercise.swift */; };
+		C41E51DB2590F82500324981 /* TrainingDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E51D62590F82500324981 /* TrainingDay.swift */; };
+		C41E51DC2590F82500324981 /* TherapyPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E51D72590F82500324981 /* TherapyPlan.swift */; };
+		C41E51DD2590F82500324981 /* TherapyWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E51D82590F82500324981 /* TherapyWeek.swift */; };
+		C41E51DE2590F82500324981 /* ExerciseConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E51D92590F82500324981 /* ExerciseConfiguration.swift */; };
+		C41E51EB2590F86800324981 /* DateFormatterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E51EA2590F86800324981 /* DateFormatterExtension.swift */; };
+		C41E51EF2590F8B200324981 /* AudioAddresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E51EE2590F8B200324981 /* AudioAddresses.swift */; };
+		C41E51F32590F8CA00324981 /* UIColor+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E51F22590F8CA00324981 /* UIColor+Style.swift */; };
+		C41E51F72590F8DB00324981 /* ExerciseCategoriesCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E51F62590F8DB00324981 /* ExerciseCategoriesCollection.swift */; };
+		C41E520A2590F8EE00324981 /* ExerciseCategoriesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E51FE2590F8ED00324981 /* ExerciseCategoriesOperation.swift */; };
+		C41E52102590F8EE00324981 /* TherapyPlansOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E52042590F8ED00324981 /* TherapyPlansOperation.swift */; };
+		C41E52122590F8EE00324981 /* TherapyWeekOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E52062590F8ED00324981 /* TherapyWeekOperation.swift */; };
+		C41E52182590F99D00324981 /* CasparError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E52172590F99D00324981 /* CasparError.swift */; };
+		C41E521F2590F9D100324981 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E521D2590F9D100324981 /* APIRouter.swift */; };
+		C41E52202590F9D100324981 /* CasparAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E521E2590F9D100324981 /* CasparAPIClient.swift */; };
+		C41E52242590F9E300324981 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E52232590F9E300324981 /* APIResponse.swift */; };
+		C41E52282590F9EF00324981 /* BaseAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E52272590F9EE00324981 /* BaseAPIClient.swift */; };
+		C41E522C2590FA3C00324981 /* Date+Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E522B2590FA3C00324981 /* Date+Time.swift */; };
+		C41E52302590FBDF00324981 /* LogAndError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E522F2590FBDF00324981 /* LogAndError.swift */; };
+		C41E52342590FFC900324981 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E52332590FFC900324981 /* CircleView.swift */; };
+		C41E52392590FFEB00324981 /* CustomPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E52382590FFEB00324981 /* CustomPresentationController.swift */; };
+		C41E5249259100B100324981 /* AlertsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E5248259100B100324981 /* AlertsExtension.swift */; };
+		C41E524D259100CA00324981 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E524C259100CA00324981 /* Constants.swift */; };
+		C46A41D525A5CEE2006F0539 /* therapy_plans.json in Resources */ = {isa = PBXBuildFile; fileRef = C46A41D425A5CEE2006F0539 /* therapy_plans.json */; };
+		C46A41DB25A5CF1E006F0539 /* exercise_categories.json in Resources */ = {isa = PBXBuildFile; fileRef = C46A41D825A5CF1E006F0539 /* exercise_categories.json */; };
+		C46A41DC25A5CF1E006F0539 /* therapy_plans_22800.json in Resources */ = {isa = PBXBuildFile; fileRef = C46A41D925A5CF1E006F0539 /* therapy_plans_22800.json */; };
+		C46A41DD25A5CF1E006F0539 /* exercise_configs_1310478.json in Resources */ = {isa = PBXBuildFile; fileRef = C46A41DA25A5CF1E006F0539 /* exercise_configs_1310478.json */; };
+		C46A41E525A5FBA9006F0539 /* exercise_configs_1310482.json in Resources */ = {isa = PBXBuildFile; fileRef = C46A41E025A5FBA9006F0539 /* exercise_configs_1310482.json */; };
+		C46A41E625A5FBA9006F0539 /* exercise_configs_1310479.json in Resources */ = {isa = PBXBuildFile; fileRef = C46A41E125A5FBA9006F0539 /* exercise_configs_1310479.json */; };
+		C46A41E725A5FBA9006F0539 /* exercise_configs_1310480.json in Resources */ = {isa = PBXBuildFile; fileRef = C46A41E225A5FBA9006F0539 /* exercise_configs_1310480.json */; };
+		C46A41E825A5FBA9006F0539 /* exercise_configs_1310481.json in Resources */ = {isa = PBXBuildFile; fileRef = C46A41E325A5FBA9006F0539 /* exercise_configs_1310481.json */; };
+		C46A41E925A5FBA9006F0539 /* exercise_configs_1310483.json in Resources */ = {isa = PBXBuildFile; fileRef = C46A41E425A5FBA9006F0539 /* exercise_configs_1310483.json */; };
+		C4AF01DB25A743ED00EF0C71 /* SingleExerciseContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AF01DA25A743ED00EF0C71 /* SingleExerciseContainerViewController.swift */; };
+		C4AF01DF25A7445600EF0C71 /* ExerciseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AF01DE25A7445500EF0C71 /* ExerciseDetailViewController.swift */; };
+		C4AF01E325A74FBD00EF0C71 /* VideoPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AF01E225A74FBD00EF0C71 /* VideoPlayerController.swift */; };
+		C4AF01E725A74FE000EF0C71 /* ExerciseDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AF01E625A74FDF00EF0C71 /* ExerciseDetailViewModel.swift */; };
+		C4AF01F525A7509E00EF0C71 /* HorizontalEdgeShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AF01F425A7509E00EF0C71 /* HorizontalEdgeShadowView.swift */; };
+		C4AF01F925A750B000EF0C71 /* FontsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AF01F825A750B000EF0C71 /* FontsExtension.swift */; };
+		C4AF020125A750E500EF0C71 /* ExerciseSetsRepsCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AF01FE25A750E500EF0C71 /* ExerciseSetsRepsCountView.swift */; };
+		C4AF020225A750E500EF0C71 /* ExerciseTherapistAdviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AF020025A750E500EF0C71 /* ExerciseTherapistAdviceView.swift */; };
+		C4AF020325A750E500EF0C71 /* ExerciseDetailsCurveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AF01FF25A750E500EF0C71 /* ExerciseDetailsCurveView.swift */; };
+		C4AF020725A750F800EF0C71 /* LoadingIndicatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AF020625A750F800EF0C71 /* LoadingIndicatorButton.swift */; };
+		C4AF020B25A7510D00EF0C71 /* LayoutConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AF020A25A7510D00EF0C71 /* LayoutConstraints.swift */; };
+		C4AF020F25A7514400EF0C71 /* FadeAlphaOrColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AF020E25A7514400EF0C71 /* FadeAlphaOrColor.swift */; };
+		C4AF04D825A7542300EF0C71 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4AF04C225A7537D00EF0C71 /* Roboto-Black.ttf */; };
+		C4AF04D925A7542300EF0C71 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4AF049E25A7537D00EF0C71 /* Roboto-ThinItalic.ttf */; };
+		C4AF04DA25A7542300EF0C71 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4AF024125A7537B00EF0C71 /* Roboto-Regular.ttf */; };
+		C4AF04DB25A7542300EF0C71 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4AF04A125A7537D00EF0C71 /* Roboto-Italic.ttf */; };
+		C4AF04DC25A7542300EF0C71 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4AF049F25A7537D00EF0C71 /* Roboto-BoldItalic.ttf */; };
+		C4AF04DD25A7542300EF0C71 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4AF04A025A7537D00EF0C71 /* Roboto-LightItalic.ttf */; };
+		C4AF04DE25A7542300EF0C71 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4AF04A325A7537D00EF0C71 /* Roboto-Bold.ttf */; };
+		C4AF04DF25A7542300EF0C71 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4AF022625A7537B00EF0C71 /* Roboto-Light.ttf */; };
+		C4AF04E025A7542300EF0C71 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4AF048A25A7537D00EF0C71 /* Roboto-MediumItalic.ttf */; };
+		C4AF04E125A7542300EF0C71 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4AF04A225A7537D00EF0C71 /* Roboto-BlackItalic.ttf */; };
+		C4AF04E225A7542300EF0C71 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4AF04C125A7537D00EF0C71 /* Roboto-Thin.ttf */; };
+		C4AF04E325A7542300EF0C71 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4AF022325A7537B00EF0C71 /* Roboto-Medium.ttf */; };
+		C4AF04E725A7549E00EF0C71 /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AF04E625A7549E00EF0C71 /* CircularButton.swift */; };
+		C4AFD97025A8B2FB00DE7745 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4AFD97225A8B2FB00DE7745 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C41E51662590D25B00324981 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C41E51472590D25900324981 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C41E514E2590D25900324981;
+			remoteInfo = CasparHealthCodingAssignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006BDE7D6B5125102F8CDEA5 /* Pods-CasparHealthCodingAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CasparHealthCodingAssignment.debug.xcconfig"; path = "Target Support Files/Pods-CasparHealthCodingAssignment/Pods-CasparHealthCodingAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		1B5E33A68BB554B8D80F1C86 /* Pods_CasparHealthCodingAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CasparHealthCodingAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		358E7D879EA2DABF3223F1B2 /* Pods-CasparHealthCodingAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CasparHealthCodingAssignment.release.xcconfig"; path = "Target Support Files/Pods-CasparHealthCodingAssignment/Pods-CasparHealthCodingAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		7A05A359AEC6A539A1D1F8BE /* Pods-CasparHealthCodingAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CasparHealthCodingAssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-CasparHealthCodingAssignmentTests/Pods-CasparHealthCodingAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		9A0BEDCCDFBFA6DE69D027CB /* Pods-CasparHealthCodingAssignment-CasparHealthCodingAssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CasparHealthCodingAssignment-CasparHealthCodingAssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-CasparHealthCodingAssignment-CasparHealthCodingAssignmentUITests/Pods-CasparHealthCodingAssignment-CasparHealthCodingAssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9FFACBA269D90A55DEDB628D /* Pods-CasparHealthCodingAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CasparHealthCodingAssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-CasparHealthCodingAssignmentTests/Pods-CasparHealthCodingAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9EC5F0E3C2F17ACBBAC8017 /* Pods-CasparHealthCodingAssignment-CasparHealthCodingAssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CasparHealthCodingAssignment-CasparHealthCodingAssignmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-CasparHealthCodingAssignment-CasparHealthCodingAssignmentUITests/Pods-CasparHealthCodingAssignment-CasparHealthCodingAssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA45B1AE60A50BFC858F1862 /* Pods_CasparHealthCodingAssignment_CasparHealthCodingAssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CasparHealthCodingAssignment_CasparHealthCodingAssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41E514F2590D25900324981 /* CasparHealthCodingAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CasparHealthCodingAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41E51522590D25900324981 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C41E51592590D25900324981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C41E515B2590D25B00324981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C41E515E2590D25B00324981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C41E51602590D25B00324981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C41E51652590D25B00324981 /* CasparHealthCodingAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CasparHealthCodingAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41E51692590D25B00324981 /* CasparHealthCodingAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasparHealthCodingAssignmentTests.swift; sourceTree = "<group>"; };
+		C41E516B2590D25B00324981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C41E51A72590F6F100324981 /* ExerciseSessionsIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseSessionsIndicatorView.swift; sourceTree = "<group>"; };
+		C41E51A82590F6F100324981 /* ExercisesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesListViewController.swift; sourceTree = "<group>"; };
+		C41E51AA2590F6F100324981 /* ExerciseCollectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseCollectionViewModel.swift; sourceTree = "<group>"; };
+		C41E51AB2590F6F100324981 /* ExerciseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseCollectionViewCell.swift; sourceTree = "<group>"; };
+		C41E51AC2590F6F100324981 /* ExerciseCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExerciseCollectionViewCell.xib; sourceTree = "<group>"; };
+		C41E51B52590F75200324981 /* UIDeviceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
+		C41E51BB2590F77C00324981 /* OperationQueue+Initialisation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OperationQueue+Initialisation.swift"; sourceTree = "<group>"; };
+		C41E51BF2590F79300324981 /* StatusBarAnimatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarAnimatable.swift; sourceTree = "<group>"; };
+		C41E51C62590F7DD00324981 /* TherapyWeekManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TherapyWeekManager.swift; sourceTree = "<group>"; };
+		C41E51CC2590F7FD00324981 /* CasparResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CasparResult.swift; sourceTree = "<group>"; };
+		C41E51CD2590F7FD00324981 /* APIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		C41E51CE2590F7FD00324981 /* HTTPStatusCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPStatusCode.swift; sourceTree = "<group>"; };
+		C41E51D52590F82500324981 /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		C41E51D62590F82500324981 /* TrainingDay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingDay.swift; sourceTree = "<group>"; };
+		C41E51D72590F82500324981 /* TherapyPlan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TherapyPlan.swift; sourceTree = "<group>"; };
+		C41E51D82590F82500324981 /* TherapyWeek.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TherapyWeek.swift; sourceTree = "<group>"; };
+		C41E51D92590F82500324981 /* ExerciseConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseConfiguration.swift; sourceTree = "<group>"; };
+		C41E51EA2590F86800324981 /* DateFormatterExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatterExtension.swift; sourceTree = "<group>"; };
+		C41E51EE2590F8B200324981 /* AudioAddresses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioAddresses.swift; sourceTree = "<group>"; };
+		C41E51F22590F8CA00324981 /* UIColor+Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Style.swift"; sourceTree = "<group>"; };
+		C41E51F62590F8DB00324981 /* ExerciseCategoriesCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseCategoriesCollection.swift; sourceTree = "<group>"; };
+		C41E51FE2590F8ED00324981 /* ExerciseCategoriesOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseCategoriesOperation.swift; sourceTree = "<group>"; };
+		C41E52042590F8ED00324981 /* TherapyPlansOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TherapyPlansOperation.swift; sourceTree = "<group>"; };
+		C41E52062590F8ED00324981 /* TherapyWeekOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TherapyWeekOperation.swift; sourceTree = "<group>"; };
+		C41E52172590F99D00324981 /* CasparError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CasparError.swift; sourceTree = "<group>"; };
+		C41E521D2590F9D100324981 /* APIRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		C41E521E2590F9D100324981 /* CasparAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CasparAPIClient.swift; sourceTree = "<group>"; };
+		C41E52232590F9E300324981 /* APIResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		C41E52272590F9EE00324981 /* BaseAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAPIClient.swift; sourceTree = "<group>"; };
+		C41E522B2590FA3C00324981 /* Date+Time.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Time.swift"; sourceTree = "<group>"; };
+		C41E522F2590FBDF00324981 /* LogAndError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogAndError.swift; sourceTree = "<group>"; };
+		C41E52332590FFC900324981 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		C41E52382590FFEB00324981 /* CustomPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPresentationController.swift; sourceTree = "<group>"; };
+		C41E5248259100B100324981 /* AlertsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertsExtension.swift; sourceTree = "<group>"; };
+		C41E524C259100CA00324981 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C46A41D425A5CEE2006F0539 /* therapy_plans.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = therapy_plans.json; sourceTree = "<group>"; };
+		C46A41D825A5CF1E006F0539 /* exercise_categories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exercise_categories.json; sourceTree = "<group>"; };
+		C46A41D925A5CF1E006F0539 /* therapy_plans_22800.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = therapy_plans_22800.json; sourceTree = "<group>"; };
+		C46A41DA25A5CF1E006F0539 /* exercise_configs_1310478.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exercise_configs_1310478.json; sourceTree = "<group>"; };
+		C46A41E025A5FBA9006F0539 /* exercise_configs_1310482.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exercise_configs_1310482.json; sourceTree = "<group>"; };
+		C46A41E125A5FBA9006F0539 /* exercise_configs_1310479.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exercise_configs_1310479.json; sourceTree = "<group>"; };
+		C46A41E225A5FBA9006F0539 /* exercise_configs_1310480.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exercise_configs_1310480.json; sourceTree = "<group>"; };
+		C46A41E325A5FBA9006F0539 /* exercise_configs_1310481.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exercise_configs_1310481.json; sourceTree = "<group>"; };
+		C46A41E425A5FBA9006F0539 /* exercise_configs_1310483.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exercise_configs_1310483.json; sourceTree = "<group>"; };
+		C48305CE2656A3F500B33518 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C4AF01DA25A743ED00EF0C71 /* SingleExerciseContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleExerciseContainerViewController.swift; sourceTree = "<group>"; };
+		C4AF01DE25A7445500EF0C71 /* ExerciseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailViewController.swift; sourceTree = "<group>"; };
+		C4AF01E225A74FBD00EF0C71 /* VideoPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerController.swift; sourceTree = "<group>"; };
+		C4AF01E625A74FDF00EF0C71 /* ExerciseDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailViewModel.swift; sourceTree = "<group>"; };
+		C4AF01F425A7509E00EF0C71 /* HorizontalEdgeShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalEdgeShadowView.swift; sourceTree = "<group>"; };
+		C4AF01F825A750B000EF0C71 /* FontsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsExtension.swift; sourceTree = "<group>"; };
+		C4AF01FE25A750E500EF0C71 /* ExerciseSetsRepsCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSetsRepsCountView.swift; sourceTree = "<group>"; };
+		C4AF01FF25A750E500EF0C71 /* ExerciseDetailsCurveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailsCurveView.swift; sourceTree = "<group>"; };
+		C4AF020025A750E500EF0C71 /* ExerciseTherapistAdviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseTherapistAdviceView.swift; sourceTree = "<group>"; };
+		C4AF020625A750F800EF0C71 /* LoadingIndicatorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorButton.swift; sourceTree = "<group>"; };
+		C4AF020A25A7510D00EF0C71 /* LayoutConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutConstraints.swift; sourceTree = "<group>"; };
+		C4AF020E25A7514400EF0C71 /* FadeAlphaOrColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeAlphaOrColor.swift; sourceTree = "<group>"; };
+		C4AF022325A7537B00EF0C71 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		C4AF022625A7537B00EF0C71 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		C4AF024125A7537B00EF0C71 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		C4AF048A25A7537D00EF0C71 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		C4AF049E25A7537D00EF0C71 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		C4AF049F25A7537D00EF0C71 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C4AF04A025A7537D00EF0C71 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		C4AF04A125A7537D00EF0C71 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		C4AF04A225A7537D00EF0C71 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		C4AF04A325A7537D00EF0C71 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		C4AF04C125A7537D00EF0C71 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		C4AF04C225A7537D00EF0C71 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		C4AF04E625A7549E00EF0C71 /* CircularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
+		C4AFD97125A8B2FB00DE7745 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C4AFD97525A8B2FF00DE7745 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C4AFD97625A8B3D000DE7745 /* Localizable.stringsdict */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; path = Localizable.stringsdict; sourceTree = "<group>"; };
+		CECB05261EB0CF89991D35FB /* Pods_CasparHealthCodingAssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CasparHealthCodingAssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C41E514C2590D25900324981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908280E3BD2DD5383FA9F915 /* Pods_CasparHealthCodingAssignment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41E51622590D25B00324981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2635C638C972A7E7E079A2AE /* Pods_CasparHealthCodingAssignmentTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19AA82B06B300462E2E947CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B5E33A68BB554B8D80F1C86 /* Pods_CasparHealthCodingAssignment.framework */,
+				BA45B1AE60A50BFC858F1862 /* Pods_CasparHealthCodingAssignment_CasparHealthCodingAssignmentUITests.framework */,
+				CECB05261EB0CF89991D35FB /* Pods_CasparHealthCodingAssignmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		885D2BBF51591C156972B92A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				006BDE7D6B5125102F8CDEA5 /* Pods-CasparHealthCodingAssignment.debug.xcconfig */,
+				358E7D879EA2DABF3223F1B2 /* Pods-CasparHealthCodingAssignment.release.xcconfig */,
+				A9EC5F0E3C2F17ACBBAC8017 /* Pods-CasparHealthCodingAssignment-CasparHealthCodingAssignmentUITests.debug.xcconfig */,
+				9A0BEDCCDFBFA6DE69D027CB /* Pods-CasparHealthCodingAssignment-CasparHealthCodingAssignmentUITests.release.xcconfig */,
+				9FFACBA269D90A55DEDB628D /* Pods-CasparHealthCodingAssignmentTests.debug.xcconfig */,
+				7A05A359AEC6A539A1D1F8BE /* Pods-CasparHealthCodingAssignmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C41E51462590D25900324981 = {
+			isa = PBXGroup;
+			children = (
+				C48305CE2656A3F500B33518 /* README.md */,
+				C41E51512590D25900324981 /* CasparHealthCodingAssignment */,
+				C41E51682590D25B00324981 /* CasparHealthCodingAssignmentTests */,
+				C41E51502590D25900324981 /* Products */,
+				885D2BBF51591C156972B92A /* Pods */,
+				19AA82B06B300462E2E947CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C41E51502590D25900324981 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C41E514F2590D25900324981 /* CasparHealthCodingAssignment.app */,
+				C41E51652590D25B00324981 /* CasparHealthCodingAssignmentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C41E51512590D25900324981 /* CasparHealthCodingAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				C4AFD96925A8B2E400DE7745 /* Supporting Files */,
+				C41E515B2590D25B00324981 /* Assets.xcassets */,
+				C4AF022225A7537B00EF0C71 /* Fonts */,
+				C41E51A12590F6C000324981 /* Classes */,
+				C41E515D2590D25B00324981 /* LaunchScreen.storyboard */,
+				C41E51602590D25B00324981 /* Info.plist */,
+			);
+			path = CasparHealthCodingAssignment;
+			sourceTree = "<group>";
+		};
+		C41E51682590D25B00324981 /* CasparHealthCodingAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				C41E51692590D25B00324981 /* CasparHealthCodingAssignmentTests.swift */,
+				C41E516B2590D25B00324981 /* Info.plist */,
+			);
+			path = CasparHealthCodingAssignmentTests;
+			sourceTree = "<group>";
+		};
+		C41E51A12590F6C000324981 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C41E51522590D25900324981 /* AppDelegate.swift */,
+				C41E51B42590F74B00324981 /* Extensions */,
+				C41E51C42590F7B800324981 /* Models */,
+				C41E51C32590F7A900324981 /* Network */,
+				C41E51FA2590F8ED00324981 /* Operations */,
+				C41E51A22590F6C000324981 /* Scenes */,
+				C41E52372590FFE200324981 /* Utilities */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C41E51A22590F6C000324981 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				C4AF01FC25A750C300EF0C71 /* Exercise Details */,
+				C41E51A32590F6C000324981 /* Exercises List */,
+				C41E51582590D25900324981 /* Main.storyboard */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		C41E51A32590F6C000324981 /* Exercises List */ = {
+			isa = PBXGroup;
+			children = (
+				C41E51A82590F6F100324981 /* ExercisesListViewController.swift */,
+				C4AF01DA25A743ED00EF0C71 /* SingleExerciseContainerViewController.swift */,
+				C4AF01E225A74FBD00EF0C71 /* VideoPlayerController.swift */,
+				C41E51A92590F6F100324981 /* Cells */,
+				C41E51A62590F6F100324981 /* Views */,
+			);
+			path = "Exercises List";
+			sourceTree = "<group>";
+		};
+		C41E51A62590F6F100324981 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C41E52332590FFC900324981 /* CircleView.swift */,
+				C41E51A72590F6F100324981 /* ExerciseSessionsIndicatorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C41E51A92590F6F100324981 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C41E51AA2590F6F100324981 /* ExerciseCollectionViewModel.swift */,
+				C41E51AB2590F6F100324981 /* ExerciseCollectionViewCell.swift */,
+				C41E51AC2590F6F100324981 /* ExerciseCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C41E51B42590F74B00324981 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C41E5248259100B100324981 /* AlertsExtension.swift */,
+				C41E522B2590FA3C00324981 /* Date+Time.swift */,
+				C41E51EA2590F86800324981 /* DateFormatterExtension.swift */,
+				C4AF020E25A7514400EF0C71 /* FadeAlphaOrColor.swift */,
+				C4AF01F825A750B000EF0C71 /* FontsExtension.swift */,
+				C4AF020A25A7510D00EF0C71 /* LayoutConstraints.swift */,
+				C41E522F2590FBDF00324981 /* LogAndError.swift */,
+				C41E51BB2590F77C00324981 /* OperationQueue+Initialisation.swift */,
+				C41E51BF2590F79300324981 /* StatusBarAnimatable.swift */,
+				C41E51F22590F8CA00324981 /* UIColor+Style.swift */,
+				C41E51B52590F75200324981 /* UIDeviceExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C41E51C32590F7A900324981 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C41E52232590F9E300324981 /* APIResponse.swift */,
+				C41E521D2590F9D100324981 /* APIRouter.swift */,
+				C41E52272590F9EE00324981 /* BaseAPIClient.swift */,
+				C41E521E2590F9D100324981 /* CasparAPIClient.swift */,
+				C41E52172590F99D00324981 /* CasparError.swift */,
+				C41E51CA2590F7FD00324981 /* Enums */,
+				C46A41CB25A5CE30006F0539 /* Mock Responses */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C41E51C42590F7B800324981 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C41E51EE2590F8B200324981 /* AudioAddresses.swift */,
+				C41E51D52590F82500324981 /* Exercise.swift */,
+				C41E51F62590F8DB00324981 /* ExerciseCategoriesCollection.swift */,
+				C41E51D92590F82500324981 /* ExerciseConfiguration.swift */,
+				C41E51D72590F82500324981 /* TherapyPlan.swift */,
+				C41E51D82590F82500324981 /* TherapyWeek.swift */,
+				C41E51D62590F82500324981 /* TrainingDay.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C41E51CA2590F7FD00324981 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				C41E51CD2590F7FD00324981 /* APIConstants.swift */,
+				C41E51CC2590F7FD00324981 /* CasparResult.swift */,
+				C41E51CE2590F7FD00324981 /* HTTPStatusCode.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		C41E51FA2590F8ED00324981 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				C41E51FE2590F8ED00324981 /* ExerciseCategoriesOperation.swift */,
+				C41E52042590F8ED00324981 /* TherapyPlansOperation.swift */,
+				C41E52062590F8ED00324981 /* TherapyWeekOperation.swift */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		C41E52372590FFE200324981 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C41E524C259100CA00324981 /* Constants.swift */,
+				C41E52382590FFEB00324981 /* CustomPresentationController.swift */,
+				C41E51C62590F7DD00324981 /* TherapyWeekManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C46A41CB25A5CE30006F0539 /* Mock Responses */ = {
+			isa = PBXGroup;
+			children = (
+				C46A41D825A5CF1E006F0539 /* exercise_categories.json */,
+				C46A41DA25A5CF1E006F0539 /* exercise_configs_1310478.json */,
+				C46A41E125A5FBA9006F0539 /* exercise_configs_1310479.json */,
+				C46A41E225A5FBA9006F0539 /* exercise_configs_1310480.json */,
+				C46A41E325A5FBA9006F0539 /* exercise_configs_1310481.json */,
+				C46A41E025A5FBA9006F0539 /* exercise_configs_1310482.json */,
+				C46A41E425A5FBA9006F0539 /* exercise_configs_1310483.json */,
+				C46A41D925A5CF1E006F0539 /* therapy_plans_22800.json */,
+				C46A41D425A5CEE2006F0539 /* therapy_plans.json */,
+			);
+			path = "Mock Responses";
+			sourceTree = "<group>";
+		};
+		C4AF01FC25A750C300EF0C71 /* Exercise Details */ = {
+			isa = PBXGroup;
+			children = (
+				C4AF01DE25A7445500EF0C71 /* ExerciseDetailViewController.swift */,
+				C4AF01E625A74FDF00EF0C71 /* ExerciseDetailViewModel.swift */,
+				C4AF01FD25A750D500EF0C71 /* Views */,
+			);
+			path = "Exercise Details";
+			sourceTree = "<group>";
+		};
+		C4AF01FD25A750D500EF0C71 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C4AF04E625A7549E00EF0C71 /* CircularButton.swift */,
+				C4AF01FF25A750E500EF0C71 /* ExerciseDetailsCurveView.swift */,
+				C4AF01FE25A750E500EF0C71 /* ExerciseSetsRepsCountView.swift */,
+				C4AF020025A750E500EF0C71 /* ExerciseTherapistAdviceView.swift */,
+				C4AF01F425A7509E00EF0C71 /* HorizontalEdgeShadowView.swift */,
+				C4AF020625A750F800EF0C71 /* LoadingIndicatorButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C4AF022225A7537B00EF0C71 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C4AF022325A7537B00EF0C71 /* Roboto-Medium.ttf */,
+				C4AF022625A7537B00EF0C71 /* Roboto-Light.ttf */,
+				C4AF024125A7537B00EF0C71 /* Roboto-Regular.ttf */,
+				C4AF048A25A7537D00EF0C71 /* Roboto-MediumItalic.ttf */,
+				C4AF049E25A7537D00EF0C71 /* Roboto-ThinItalic.ttf */,
+				C4AF049F25A7537D00EF0C71 /* Roboto-BoldItalic.ttf */,
+				C4AF04A025A7537D00EF0C71 /* Roboto-LightItalic.ttf */,
+				C4AF04A125A7537D00EF0C71 /* Roboto-Italic.ttf */,
+				C4AF04A225A7537D00EF0C71 /* Roboto-BlackItalic.ttf */,
+				C4AF04A325A7537D00EF0C71 /* Roboto-Bold.ttf */,
+				C4AF04C125A7537D00EF0C71 /* Roboto-Thin.ttf */,
+				C4AF04C225A7537D00EF0C71 /* Roboto-Black.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C4AFD96925A8B2E400DE7745 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4AFD97625A8B3D000DE7745 /* Localizable.stringsdict */,
+				C4AFD97225A8B2FB00DE7745 /* Localizable.strings */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C41E514E2590D25900324981 /* CasparHealthCodingAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C41E51792590D25B00324981 /* Build configuration list for PBXNativeTarget "CasparHealthCodingAssignment" */;
+			buildPhases = (
+				EE7C32375C686ECFC7967F08 /* [CP] Check Pods Manifest.lock */,
+				C41E514B2590D25900324981 /* Sources */,
+				C41E514C2590D25900324981 /* Frameworks */,
+				C41E514D2590D25900324981 /* Resources */,
+				64D25FF5D3276DEDD957EDCA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CasparHealthCodingAssignment;
+			productName = CasparHealthCodingAssignment;
+			productReference = C41E514F2590D25900324981 /* CasparHealthCodingAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C41E51642590D25B00324981 /* CasparHealthCodingAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C41E517C2590D25B00324981 /* Build configuration list for PBXNativeTarget "CasparHealthCodingAssignmentTests" */;
+			buildPhases = (
+				A20A132DE4BF3ACB59178CAF /* [CP] Check Pods Manifest.lock */,
+				C41E51612590D25B00324981 /* Sources */,
+				C41E51622590D25B00324981 /* Frameworks */,
+				C41E51632590D25B00324981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C41E51672590D25B00324981 /* PBXTargetDependency */,
+			);
+			name = CasparHealthCodingAssignmentTests;
+			productName = CasparHealthCodingAssignmentTests;
+			productReference = C41E51652590D25B00324981 /* CasparHealthCodingAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C41E51472590D25900324981 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					C41E514E2590D25900324981 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					C41E51642590D25B00324981 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = C41E514E2590D25900324981;
+					};
+				};
+			};
+			buildConfigurationList = C41E514A2590D25900324981 /* Build configuration list for PBXProject "CasparHealthCodingAssignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				de,
+				"zh-Hant-HK",
+			);
+			mainGroup = C41E51462590D25900324981;
+			productRefGroup = C41E51502590D25900324981 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C41E514E2590D25900324981 /* CasparHealthCodingAssignment */,
+				C41E51642590D25B00324981 /* CasparHealthCodingAssignmentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C41E514D2590D25900324981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AF04E325A7542300EF0C71 /* Roboto-Medium.ttf in Resources */,
+				C46A41E625A5FBA9006F0539 /* exercise_configs_1310479.json in Resources */,
+				C4AF04E025A7542300EF0C71 /* Roboto-MediumItalic.ttf in Resources */,
+				C4AF04DB25A7542300EF0C71 /* Roboto-Italic.ttf in Resources */,
+				C4AFD97025A8B2FB00DE7745 /* Localizable.strings in Resources */,
+				C4AF04DD25A7542300EF0C71 /* Roboto-LightItalic.ttf in Resources */,
+				C46A41DD25A5CF1E006F0539 /* exercise_configs_1310478.json in Resources */,
+				C4AF04D825A7542300EF0C71 /* Roboto-Black.ttf in Resources */,
+				C41E515F2590D25B00324981 /* LaunchScreen.storyboard in Resources */,
+				C4AF04E125A7542300EF0C71 /* Roboto-BlackItalic.ttf in Resources */,
+				C41E515C2590D25B00324981 /* Assets.xcassets in Resources */,
+				C46A41E925A5FBA9006F0539 /* exercise_configs_1310483.json in Resources */,
+				C46A41DC25A5CF1E006F0539 /* therapy_plans_22800.json in Resources */,
+				C41E51B12590F6F100324981 /* ExerciseCollectionViewCell.xib in Resources */,
+				C46A41D525A5CEE2006F0539 /* therapy_plans.json in Resources */,
+				C46A41E725A5FBA9006F0539 /* exercise_configs_1310480.json in Resources */,
+				C4AF04DC25A7542300EF0C71 /* Roboto-BoldItalic.ttf in Resources */,
+				C4AF04DF25A7542300EF0C71 /* Roboto-Light.ttf in Resources */,
+				C4AF04DE25A7542300EF0C71 /* Roboto-Bold.ttf in Resources */,
+				C4AF04E225A7542300EF0C71 /* Roboto-Thin.ttf in Resources */,
+				C46A41E825A5FBA9006F0539 /* exercise_configs_1310481.json in Resources */,
+				C4AF04D925A7542300EF0C71 /* Roboto-ThinItalic.ttf in Resources */,
+				C41E515A2590D25900324981 /* Main.storyboard in Resources */,
+				C4AF04DA25A7542300EF0C71 /* Roboto-Regular.ttf in Resources */,
+				C46A41DB25A5CF1E006F0539 /* exercise_categories.json in Resources */,
+				C46A41E525A5FBA9006F0539 /* exercise_configs_1310482.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41E51632590D25B00324981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64D25FF5D3276DEDD957EDCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CasparHealthCodingAssignment/Pods-CasparHealthCodingAssignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CasparHealthCodingAssignment/Pods-CasparHealthCodingAssignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CasparHealthCodingAssignment/Pods-CasparHealthCodingAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A20A132DE4BF3ACB59178CAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CasparHealthCodingAssignmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE7C32375C686ECFC7967F08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CasparHealthCodingAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C41E514B2590D25900324981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AF020F25A7514400EF0C71 /* FadeAlphaOrColor.swift in Sources */,
+				C41E52182590F99D00324981 /* CasparError.swift in Sources */,
+				C41E52302590FBDF00324981 /* LogAndError.swift in Sources */,
+				C41E52392590FFEB00324981 /* CustomPresentationController.swift in Sources */,
+				C41E51DE2590F82500324981 /* ExerciseConfiguration.swift in Sources */,
+				C4AF020225A750E500EF0C71 /* ExerciseTherapistAdviceView.swift in Sources */,
+				C4AF01DF25A7445600EF0C71 /* ExerciseDetailViewController.swift in Sources */,
+				C41E52102590F8EE00324981 /* TherapyPlansOperation.swift in Sources */,
+				C41E51F72590F8DB00324981 /* ExerciseCategoriesCollection.swift in Sources */,
+				C4AF01F925A750B000EF0C71 /* FontsExtension.swift in Sources */,
+				C41E52282590F9EF00324981 /* BaseAPIClient.swift in Sources */,
+				C41E51EF2590F8B200324981 /* AudioAddresses.swift in Sources */,
+				C41E51AF2590F6F100324981 /* ExerciseCollectionViewModel.swift in Sources */,
+				C41E51D02590F7FD00324981 /* CasparResult.swift in Sources */,
+				C41E51B02590F6F100324981 /* ExerciseCollectionViewCell.swift in Sources */,
+				C41E52122590F8EE00324981 /* TherapyWeekOperation.swift in Sources */,
+				C4AF020725A750F800EF0C71 /* LoadingIndicatorButton.swift in Sources */,
+				C41E522C2590FA3C00324981 /* Date+Time.swift in Sources */,
+				C41E51532590D25900324981 /* AppDelegate.swift in Sources */,
+				C4AF020B25A7510D00EF0C71 /* LayoutConstraints.swift in Sources */,
+				C41E520A2590F8EE00324981 /* ExerciseCategoriesOperation.swift in Sources */,
+				C41E51DC2590F82500324981 /* TherapyPlan.swift in Sources */,
+				C4AF01F525A7509E00EF0C71 /* HorizontalEdgeShadowView.swift in Sources */,
+				C41E51C02590F79300324981 /* StatusBarAnimatable.swift in Sources */,
+				C4AF01E725A74FE000EF0C71 /* ExerciseDetailViewModel.swift in Sources */,
+				C41E51DB2590F82500324981 /* TrainingDay.swift in Sources */,
+				C4AF020325A750E500EF0C71 /* ExerciseDetailsCurveView.swift in Sources */,
+				C41E5249259100B100324981 /* AlertsExtension.swift in Sources */,
+				C41E51F32590F8CA00324981 /* UIColor+Style.swift in Sources */,
+				C41E51DA2590F82500324981 /* Exercise.swift in Sources */,
+				C41E51EB2590F86800324981 /* DateFormatterExtension.swift in Sources */,
+				C4AF01DB25A743ED00EF0C71 /* SingleExerciseContainerViewController.swift in Sources */,
+				C4AF04E725A7549E00EF0C71 /* CircularButton.swift in Sources */,
+				C41E51B82590F76200324981 /* UIDeviceExtension.swift in Sources */,
+				C41E51D22590F7FD00324981 /* HTTPStatusCode.swift in Sources */,
+				C41E51DD2590F82500324981 /* TherapyWeek.swift in Sources */,
+				C41E524D259100CA00324981 /* Constants.swift in Sources */,
+				C4AF020125A750E500EF0C71 /* ExerciseSetsRepsCountView.swift in Sources */,
+				C41E51AE2590F6F100324981 /* ExercisesListViewController.swift in Sources */,
+				C41E52342590FFC900324981 /* CircleView.swift in Sources */,
+				C41E52242590F9E300324981 /* APIResponse.swift in Sources */,
+				C41E52202590F9D100324981 /* CasparAPIClient.swift in Sources */,
+				C4AF01E325A74FBD00EF0C71 /* VideoPlayerController.swift in Sources */,
+				C41E521F2590F9D100324981 /* APIRouter.swift in Sources */,
+				C41E51BC2590F77C00324981 /* OperationQueue+Initialisation.swift in Sources */,
+				C41E51D12590F7FD00324981 /* APIConstants.swift in Sources */,
+				C41E51AD2590F6F100324981 /* ExerciseSessionsIndicatorView.swift in Sources */,
+				C41E51C72590F7DD00324981 /* TherapyWeekManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41E51612590D25B00324981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41E516A2590D25B00324981 /* CasparHealthCodingAssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C41E51672590D25B00324981 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C41E514E2590D25900324981 /* CasparHealthCodingAssignment */;
+			targetProxy = C41E51662590D25B00324981 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C41E51582590D25900324981 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C41E51592590D25900324981 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C41E515D2590D25B00324981 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C41E515E2590D25B00324981 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C4AFD97225A8B2FB00DE7745 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4AFD97125A8B2FB00DE7745 /* en */,
+				C4AFD97525A8B2FF00DE7745 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C41E51772590D25B00324981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C41E51782590D25B00324981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C41E517A2590D25B00324981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 006BDE7D6B5125102F8CDEA5 /* Pods-CasparHealthCodingAssignment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CasparHealthCodingAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caspar.coding-assignment.CasparHealthCodingAssignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C41E517B2590D25B00324981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 358E7D879EA2DABF3223F1B2 /* Pods-CasparHealthCodingAssignment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CasparHealthCodingAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caspar.coding-assignment.CasparHealthCodingAssignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C41E517D2590D25B00324981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FFACBA269D90A55DEDB628D /* Pods-CasparHealthCodingAssignmentTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CasparHealthCodingAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caspar.coding-assignment.CasparHealthCodingAssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CasparHealthCodingAssignment.app/CasparHealthCodingAssignment";
+			};
+			name = Debug;
+		};
+		C41E517E2590D25B00324981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A05A359AEC6A539A1D1F8BE /* Pods-CasparHealthCodingAssignmentTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CasparHealthCodingAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caspar.coding-assignment.CasparHealthCodingAssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CasparHealthCodingAssignment.app/CasparHealthCodingAssignment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C41E514A2590D25900324981 /* Build configuration list for PBXProject "CasparHealthCodingAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C41E51772590D25B00324981 /* Debug */,
+				C41E51782590D25B00324981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C41E51792590D25B00324981 /* Build configuration list for PBXNativeTarget "CasparHealthCodingAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C41E517A2590D25B00324981 /* Debug */,
+				C41E517B2590D25B00324981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C41E517C2590D25B00324981 /* Build configuration list for PBXNativeTarget "CasparHealthCodingAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C41E517D2590D25B00324981 /* Debug */,
+				C41E517E2590D25B00324981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C41E51472590D25900324981 /* Project object */;
+}

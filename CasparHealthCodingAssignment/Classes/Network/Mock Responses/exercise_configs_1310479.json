@@ -1,0 +1,38 @@
+{
+    "id": 1310479,
+    "exercise_id": 3362,
+    "video_urls": {
+        "original": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0028/0028.mp4",
+        "mp4": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0028/0028.mp4",
+        "loop": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0028/0028.mp4",
+        "thumb": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0028/0028T.jpg"
+    },
+    "audio_urls": {
+        "en": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0028/0028_en.m4a",
+        "de": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0028/0028_de.m4a",
+        "cn": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0028/0028_cn.m4a",
+        "zh": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0028/0028_zh.m4a"
+    },
+    "title": "Jumping Jack",
+    "introduction": null,
+    "instruction": null,
+    "note": "Exercise for general warm up",
+    "kind": "exercise",
+    "exercise_type": "time_based",
+    "execution_type": "loop_and_speed",
+    "keywords": [],
+    "category_ids": [7629, 7687, 7678, 7692, 7601, 7592, 7589, 7580, 7579, 7578, 7577, 7576, 7574, 7573, 7572, 7571, 7567],
+    "sessions_count": 7,
+    "sessions_interval": 86400,
+    "sets_count": 1,
+    "sets_pause": 5,
+    "repetitions_count": 1,
+    "repetitions_hold": null,
+    "repetition_duration": 1,
+    "duration": 10,
+    "extra_note": "",
+    "sessions_completed": [],
+    "feedback": true,
+    "localised_audio": null,
+    "total_task_duration": 2
+}

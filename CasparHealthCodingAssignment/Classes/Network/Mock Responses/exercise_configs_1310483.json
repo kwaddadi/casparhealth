@@ -1,0 +1,38 @@
+{
+    "id": 1310483,
+    "exercise_id": 3380,
+    "video_urls": {
+        "original": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0602/0602.mp4",
+        "mp4": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0602/0602.mp4",
+        "loop": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0602/0602.mp4",
+        "thumb": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0602/0602T.jpg"
+    },
+    "audio_urls": {
+        "en": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0602/0602_en.m4a",
+        "de": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0602/0602_de.m4a",
+        "cn": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0602/0602_cn.m4a",
+        "zh": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0602/0602_zh.m4a"
+    },
+    "title": "Thera-Band 8 (266)",
+    "introduction": "The Thera-Band is an elastic band made of latex which is useful for strengthening and endurance exercises. It can be used for countless exercises to train a variety of muscle groups. Its high flexibility makes the Thera-Band perfect for targeted exercises. It allows for easy variation and, unlike exercises with dumbbells, lets us practice our natural range of motion with increased resistance.\n\nProper technique is important to prevent damage due to incorrect loading.\n\nThis video shows you how to use the Thera-Band correctly while strengthening your hip abductors, arm and shoulder girdle muscles of the opposite side.",
+    "instruction": "Starting position:\nStand upright. Place both feet hip width apart on the floor. Your arms should hang down relaxed alongside your body. Keep your shoulders down. Wrap one end of the Thera-Band around your foot. The other end should be wrapped around your opposite hand.\n\nStep 1:\nShift your body weight onto the leg  without the Theraband while lifting your right leg sideways. At the same time, move your left arm sideways towards the ceiling, stretching the Thera-Band diagonally. Your upper body and standing leg should stay in a straight line. Keep your pelvis stable.\n\nStep 2:\nMove back into starting position. \n\nRepeat the exercise as indicated.",
+    "note": "Strengthening the hip abductors as well as arms and shoulder girdle muscles of the opposite side",
+    "kind": "exercise",
+    "exercise_type": "repetitions_and_sets",
+    "execution_type": "loop_and_speed",
+    "keywords": [],
+    "category_ids": [7687, 7671, 7733, 7601, 7592, 7589, 7580, 7579, 7578, 7577, 7576, 7574, 7573, 7572, 7571, 7567],
+    "sessions_count": 7,
+    "sessions_interval": 86400,
+    "sets_count": 2,
+    "sets_pause": 5,
+    "repetitions_count": 2,
+    "repetitions_hold": null,
+    "repetition_duration": 15,
+    "duration": 65,
+    "extra_note": "",
+    "sessions_completed": [],
+    "feedback": true,
+    "localised_audio": null,
+    "total_task_duration": 3
+}

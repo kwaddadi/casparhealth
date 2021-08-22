@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "Play_IOS_ 0125C8.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}

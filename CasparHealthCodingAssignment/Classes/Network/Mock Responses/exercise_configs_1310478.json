@@ -1,0 +1,38 @@
+{
+    "id": 1310478,
+    "exercise_id": 3385,
+    "video_urls": {
+        "original": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0002/0002.mp4",
+        "mp4": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0002/0002.mp4",
+        "loop": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0002/0002.mp4",
+        "thumb": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0002/0002T.jpg"
+    },
+    "audio_urls": {
+        "en": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0002/0002_en.m4a",
+        "de": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0002/0002_de.m4a",
+        "cn": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0002/0002_cn.m4a",
+        "zh": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0002/0002_zh.m4a"
+    },
+    "title": "Lying side stretch (146)",
+    "introduction": "The mobility of a joint depends on, among other factors, muscles and joints that work efficiently. The muscles of our skeleton contract, allowing movement in the joints. When muscles are shortened significantly, they cannot exert the optimal amount of force required to move our body freely. For this reason, stretching is an important part of a regular training routine.\nOur core muscles play the biggest part in stabilising the spine and are essential for keeping our body upright. Without stable core muscles, we cannot move any of our extremities. The deeper muscle layer in particular is constantly working to support our body, and stabilise the trunk, spine and discs. This muscle layer allows us to undertake movements such as walking, running, bending, dancing and jumping.\n\nSurgeries and injuries can passively shorten the muscles. In addition, lop-sided posture leads to muscular imbalances which in turn weaken joints and muscles.\nStretching can prevent this imbalance.\n\nThis video introduces a resting position on the side with a stretch.",
+    "instruction": "Starting position:\nLie on your side in a stable position, both legs bent at your hips and knees. Your head should rest on a pillow or rolled-up towel. \n\nStep 1:\nTurn your upper body as if you were going to lie on your back. Move your top arm backwards as well, without moving your pelvis. \n\nImagine a line between your knee and shoulder and move your arm on this. To help yourself moving your arm correctly, place an object besides and above your head.\n\nRepeat the exercise as indicated.\n",
+    "note": "Passive stretching twist, lying on the side",
+    "kind": "exercise",
+    "exercise_type": "time_based",
+    "execution_type": "loop_and_speed",
+    "keywords": [],
+    "category_ids": [7791, 7685, 7673, 7672, 7716, 7632, 7601, 7592, 7589, 7580, 7579, 7578, 7577, 7576, 7574, 7573, 7572, 7571, 7567],
+    "sessions_count": 14,
+    "sessions_interval": 86400,
+    "sets_count": 2,
+    "sets_pause": 5,
+    "repetitions_count": 1,
+    "repetitions_hold": null,
+    "repetition_duration": 30,
+    "duration": 10,
+    "extra_note": "",
+    "sessions_completed": [],
+    "feedback": true,
+    "localised_audio": null,
+    "total_task_duration": 2
+}

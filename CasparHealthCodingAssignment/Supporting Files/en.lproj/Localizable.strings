@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  CasparHealthCodingAssignment
+
+  Created by Gennadii Berezovskii on 08.01.21.
+  
+*/
+
+"ExerciseConfig_Error_CorruptedData" = "Exercise configuration is faulty.";
+
+"ExercisesControl_Title" = "Exercises";
+
+"ExerciseInfo_InstructionButton_Title" = "Instruction";
+"ExerciseInfo_MirrorToggle_Title" = "Mirror";
+"ExerciseInfo_NoEquipment_Tag" = "None";
+"ExerciseInfo_NoEquipment_TagLong" = "No equipment needed";
+
+/* Title for an exercise quipment section */
+"ExerciseInfo_ToolsLabel_Title" = "Equipment";
+
+/* Watch button on an exercise video */
+"ExerciseInfo_WatchButton_Title" = "Watch";
+
+"Seconds_Short" = "Sec";
+

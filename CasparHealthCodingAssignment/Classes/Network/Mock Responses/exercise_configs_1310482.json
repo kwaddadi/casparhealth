@@ -1,0 +1,38 @@
+{
+    "id": 1310482,
+    "exercise_id": 3379,
+    "video_urls": {
+        "original": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0114/0114.mp4",
+        "mp4": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0114/0114.mp4",
+        "loop": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0114/0114.mp4",
+        "thumb": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0114/0114T.jpg"
+    },
+    "audio_urls": {
+        "en": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0114/0114_en.m4a",
+        "de": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0114/0114_de.m4a",
+        "cn": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0114/0114_cn.m4a",
+        "zh": "https://tech-challenge-mobile.s3.eu-central-1.amazonaws.com/0114/0114_zh.m4a"
+    },
+    "title": "Thera-Band 6 (268)",
+    "introduction": "The Thera-Band is an elastic band made of latex which is useful for strengthening and endurance exercises. It can be used for countless exercises to train a variety of muscle groups. Its high flexibility makes the Thera-Band perfect for targeted exercises. It allows for easy variation and, unlike exercises with dumbbells, lets us practice our natural range of motion with increased resistance.\n\nProper technique is important to prevent damage due to incorrect loading.\n\nThis video shows you how to use the Thera-Band correctly in a standing position while strengthening the external rotator muscles of the shoulders.",
+    "instruction": "Starting position:\nStand upright with your feet hip-width apart. Activate the shoulders back down. Fix the elbows to the body and bend them at a right angle. Wrap the Theraband around both hands so that it is slightly taut.\n\nStep 1:\nGuide both hands outwards as far as possible.\n\nStep 2:\nLet the Theraband pull you back to the starting position.\n\nMake sure that the elbows remain bent at right angles and fixed to the body.\n\nRepeat the exercise as indicated.\n",
+    "note": "Strengthening the external rotators with a Thera-Band in a standing position",
+    "kind": "exercise",
+    "exercise_type": "repetitions_and_sets",
+    "execution_type": "loop_and_speed",
+    "keywords": [],
+    "category_ids": [7609, 7687, 7674, 7671, 7733, 7641, 7601, 7592, 7589, 7580, 7579, 7578, 7577, 7576, 7574, 7573, 7572, 7571, 7567],
+    "sessions_count": 7,
+    "sessions_interval": 86400,
+    "sets_count": 2,
+    "sets_pause": 5,
+    "repetitions_count": 2,
+    "repetitions_hold": null,
+    "repetition_duration": 15,
+    "duration": 65,
+    "extra_note": "",
+    "sessions_completed": [],
+    "feedback": true,
+    "localised_audio": null,
+    "total_task_duration": 3
+}
