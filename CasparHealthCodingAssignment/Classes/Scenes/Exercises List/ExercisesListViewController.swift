@@ -110,6 +110,18 @@ class ExercisesListViewController: UICollectionViewController, StatusBarAnimatab
             
             // This is how the screen should look like given the mocked response https://i.snipboard.io/yUiT6w.jpg
             
+            let totalCount = exerciseSessions.count
+            let completedCount = exerciseSessions.filter { $0.isCompleted == true }.count
+            
+            if let exercise = exerciseSessions.first(where: { $0.isActive == true}) {
+                let viewModel = ExerciseCollectionViewModel(exercise: exercise, totalSessionsCount: totalCount, completedSessionsCount: completedCount)
+                viewModels.append(viewModel)
+            } else {
+                if totalCount > 0 {
+                    let viewModel = ExerciseCollectionViewModel(exercise: exerciseSessions[0], totalSessionsCount: totalCount, completedSessionsCount: completedCount)
+                    viewModels.append(viewModel)
+                }
+            }
         })
     }
     
